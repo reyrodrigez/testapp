@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"origin": {
+			"name": "origin",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "origin",
+			"order": 0
+		},
+		"target": {
+			"name": "target",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "target",
+			"order": 1
+		},
+		"attempts": {
+			"name": "attempts",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "attempts",
+			"order": 2
+		},
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "userId",
+			"order": 3
+		}
+	}
+}
