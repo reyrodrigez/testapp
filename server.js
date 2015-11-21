@@ -6,12 +6,12 @@ var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
   db: {
-    host: 'ds039271.mongolab.com',
-    port: 39271,
-    name: 'leanvocab',
+    host: process.env.dbHost,
+    port: process.env.dbPort,
+    name: process.env.dbName,
     credentials: {
-      username: 'leanvocab',
-      password: 'Ij3vaUs4En5Keb'
+      username: process.env.dbName,
+      password: process.env.dbPass
     }
   }
 });
