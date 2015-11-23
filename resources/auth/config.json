@@ -15,7 +15,7 @@
 	"twitterConsumerKey": "",
 	"twitterConsumerSecret": "",
 	"facebookAppId": "445602285587952",
-	"facebookAppSecret": process.env.FACEBOOKSECRET,
+	"facebookAppSecret": "89e14f317efa27cf6c1248c9a53de1ba",
 	"facebookScope": "",
 	"githubClientId": "",
 	"githubClientSecret": "",
