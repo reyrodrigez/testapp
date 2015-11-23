@@ -5,7 +5,8 @@
     "npm":  "2.2.x"
   },
   "dependencies": {
-    "deployd": ">= 0"
+    "deployd": ">= 0",
+    "dpd-passport": ">= 0.3"
   },
   "scripts": {
     "start": "node server.js"
