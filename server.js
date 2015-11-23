@@ -6,12 +6,12 @@ var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
   db: {
-    host: process.env.dbHost,
-    port: process.env.dbPort,
-    name: process.env.dbName,
+    host: process.env.DBHOST,
+    port: process.env.DBPORT,
+    name: process.env.DBNAME,
     credentials: {
-      username: process.env.dbName,
-      password: process.env.dbPass
+      username: process.env.DBNAME,
+      password: process.env.DBPASS
     }
   }
 });
