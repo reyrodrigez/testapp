@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"wordId": {
+			"name": "wordId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "wordId",
+			"order": 0
+		},
+		"val": {
+			"name": "val",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "val",
+			"order": 1
+		},
+		"datetime": {
+			"name": "datetime",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "datetime",
+			"order": 2
+		},
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userId",
+			"order": 3
+		}
+	}
+}

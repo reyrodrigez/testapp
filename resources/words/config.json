@@ -17,21 +17,13 @@
 			"id": "target",
 			"order": 1
 		},
-		"attempts": {
-			"name": "attempts",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "attempts",
-			"order": 2
-		},
 		"userId": {
 			"name": "userId",
 			"type": "string",
 			"typeLabel": "string",
 			"required": true,
 			"id": "userId",
-			"order": 3
+			"order": 2
 		}
 	}
 }
