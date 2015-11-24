@@ -3,7 +3,7 @@
 	"usersCollection": "",
 	"SALT_LEN": "",
 	"baseURL": "https://valami.herokuapp.com",
-	"allowedRedirectURLs": "",
+	"allowedRedirectURLs": "^http://www.your-page.com/.*$",
 	"disableSessionId": false,
 	"disableReturnParams": false,
 	"allowLocal": false,
